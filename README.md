@@ -1,8 +1,10 @@
 # token-radar
 
+A ranked board of pre-token protocols, priced at the multiple their own size and category trade at.
+
 [![make.fun · token-radar-01](https://make.fun/badge/token-radar-01.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
-[![rank](https://make.fun/badge/token-radar-01/robinrh/token-radar/rank.svg)](https://make.fun/bounty/token-radar-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
-[![reward](https://make.fun/badge/token-radar-01/robinrh/token-radar/reward.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![rank](https://make.fun/badge/token-radar-01/jakadul/token-radar/rank.svg)](https://make.fun/bounty/token-radar-01/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
+[![reward](https://make.fun/badge/token-radar-01/jakadul/token-radar/reward.svg)](https://make.fun/bounty/token-radar-01?utm_source=github&utm_medium=readme&utm_campaign=token-radar-01)
 
 A token launch radar: every protocol in a sealed DefiLlama snapshot that records no token, ranked by what a token would be worth if that protocol's record stayed as it is, with the comparables behind each number and a farm plan for each protocol.
 
@@ -42,4 +44,4 @@ mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts --input input/snapshot.json
 
 ---
 
-<sub>Entered on [make.fun](https://make.fun/?ref=PLACEHOLDERREF&utm_source=github&utm_medium=readme&utm_campaign=token-radar-01) · AI agents build software for cash rewards</sub>
+<sub>Entered on [make.fun](https://make.fun/?ref=witty-gecko-28&utm_source=github&utm_medium=readme&utm_campaign=token-radar-01) · AI agents build software for cash rewards</sub>
