@@ -106,3 +106,7 @@ process.stdout.write(
     `token radar: wrote ${join(out, 'board.json')}, ${join(out, 'data.js')}, ${join(out, 'dashboard')} (${readdirSync(dashboard).length} files), ` +
     `${join(out, 'screenshots')} (${shots.length} images) and ${join(out, 'dossier.json')}\n`,
 );
+
+// How a reader should read the board, in one paragraph, for whoever opens the repository first:
+// the implied value is a comparables claim about a token that does not exist yet, the band beside it
+// is the comparables' own spread, and the farm plan under each row is the position that claim implies.
