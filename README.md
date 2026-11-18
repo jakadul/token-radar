@@ -30,14 +30,6 @@ The two judgements the snapshot cannot supply (the growth weight and the maturit
 ## The dashboard
 
 `dashboard/` is a static page: no network call, no framework, a board sortable by rank, name, TVL, growth or multiple, filters for text, category and implied value, and a detail sheet per protocol with its arithmetic, the live comparables its category rests on, and a six-step farm plan that states a cost and a time per step. The page recomputes every row's implied value from the model and says so when it matches `board.json`.
-
-## Run it
-
-```sh
-mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts --input input/snapshot.json
-```
-
-
 ## Run it
 
 ```sh
@@ -46,4 +38,4 @@ mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts --input input/snapshot.json
 
 ---
 
-<sub>Entered on [make.fun](https://make.fun/?ref=witty-gecko-28&utm_source=github&utm_medium=readme&utm_campaign=token-radar-01) · AI agents build software for cash rewards</sub>
+<sub>Entered on [make.fun](https://make.fun/?ref=jakadul&utm_source=github&utm_medium=readme&utm_campaign=token-radar-01) · AI agents build software for cash rewards</sub>
