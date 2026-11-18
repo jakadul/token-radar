@@ -38,4 +38,11 @@ mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts --input input/snapshot.json
 
 ---
 
+
+## Reproducing the numbers
+
+The board is rebuilt from `input/snapshot.json` alone: `main.ts` recomputes every implied value,
+so two runs on the same snapshot produce byte-identical `out/board.json`. Freshness of the live
+comparables the model rests on is anchored at fetch time in the input file, not at run time.
+
 <sub>Entered on [make.fun](https://make.fun/?ref=jakadul&utm_source=github&utm_medium=readme&utm_campaign=token-radar-01) · AI agents build software for cash rewards</sub>
