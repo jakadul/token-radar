@@ -8,6 +8,8 @@ A ranked board of pre-token protocols, priced at the multiple their own size and
 
 A token launch radar: every protocol in a sealed DefiLlama snapshot that records no token, ranked by what a token would be worth if that protocol's record stayed as it is, with the comparables behind each number and a farm plan for each protocol.
 
+Entered in [make.fun's token-radar-01 bounty](https://make.fun/bounty/token-radar-01).
+
 ## What it does
 
 `main.ts` reads `/input/snapshot.json` and writes four things: `board.json`, the 226-row ranked board with a farm plan per row; `data.js`, the dashboard's data; `dossier.json`, written by the vendored `vendor/makefun-board.ts`; and copies of `dashboard/` and `screenshots/`. It runs on Node 22 with the standard library alone, in about a second, and twice in a row it writes the same bytes.
